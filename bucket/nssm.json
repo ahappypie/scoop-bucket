@@ -7,10 +7,10 @@
     "hash": "ef6d1989d5b3b8d548441f378ad3add1a97baa693338656c25c2557cda2bcd87",
     "architecture": {
         "64bit": {
-            "extract_dir": "NSSM_v2.25\\win64"
+            "extract_dir": "win64"
         },
         "32bit": {
-            "extract_dir": "NSSM_v2.25\\win32"
+            "extract_dir": "win32"
         }
     },
     "bin": [
