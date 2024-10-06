@@ -11,7 +11,7 @@
     },
     "pre_install": "(Get-ChildItem \"$dir\\windows_exporter*.exe\")[0] | Rename-Item -NewName 'windows_exporter.exe'",
     "bin": [
-        "windows_exporter", "windows_exporter.exe"
+        "windows_exporter.exe"
     ],
     "checkver": "github",
     "autoupdate": {
