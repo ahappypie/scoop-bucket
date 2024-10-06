@@ -1,0 +1,20 @@
+{
+    "version": "2.25",
+    "description": "The Non-Sucking Service Manager",
+    "homepage": "https://github.com/dkxce/NSSM",
+    "license": "Public Domain",
+    "url": "https://github.com/dkxce/NSSM/releases/download/v2.25/NSSM_v2.25.zip",
+    "hash": "ef6d1989d5b3b8d548441f378ad3add1a97baa693338656c25c2557cda2bcd87",
+    "architecture": {
+        "64bit": {
+            "extract_dir": "NSSM_v2.25\\win64"
+        },
+        "32bit": {
+            "extract_dir": "NSSM_v2.25\\win32"
+        }
+    },
+    "bin": [
+        "nssm.exe",
+        [ "nssm.exe", "service" ]
+    ]
+}
